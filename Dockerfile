@@ -4,7 +4,7 @@ ENV VIRTUAL_ENV=/myvenv
 
 WORKDIR /crypto-signals
 
-RUN git clone https://github.com/ungureanudaniel/crypto-signals.git && cd crypto-signals && python3.8 -m venv $VIRTUAL_ENV
+RUN python3.8 -m venv $VIRTUAL_ENV
 # Enable venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
