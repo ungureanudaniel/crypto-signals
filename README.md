@@ -16,7 +16,7 @@ Also, DO NOT risk money which you are afraid to lose and ALWAYS do your own rese
 
 ## Quick start
 ***
-** NOTE ** : **This section assumes docker & python3.8+ is already installed and that**
+** NOTE ** : **This section assumes docker & python3.8+ is already installed**
 
 * Clone the repository into a docker container using command:
 ```<Language>
