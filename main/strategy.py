@@ -92,7 +92,7 @@ class Strategy:
                 signal = f"buy"
                 return signal
             else:
-                signal = f"wait"
+                signal = f"----------------------"
                 return signal
 
         except (Exception, ValueError) as e:

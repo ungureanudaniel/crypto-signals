@@ -15,7 +15,7 @@ class OrderManager():
     async def orders(self):
         try:
             if self.signal == "buy":
-                return logger.info(f"{self.signal.title()} Bitcoin")
+                return logger.success(f"{self.signal.title()} Bitcoin")
             elif self.signal == "sell":
                 return logger.info(f"{self.signal.title()} Bitcoin")
             else:

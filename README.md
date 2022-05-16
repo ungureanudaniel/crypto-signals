@@ -21,10 +21,10 @@ If you want to get into trading, DO NOT risk money which you are afraid to lose 
 ***
 ** NOTE ** : **This section assumes docker & python3.8+ is already installed**
 
-* Clone the repository into a docker container using command, replacing "your folder name" with your actual folder:
+* Clone the repository into a docker container using command:
 ```<Language>
 
-docker build -t <your folder name> https://github.com/ungureanudaniel/crypto-signals.git
+docker build -t crypto-signals .
 
 ```
 * cd into the crypto-signals directory
