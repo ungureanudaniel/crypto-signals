@@ -35,7 +35,7 @@ async def data_stream(pair:str, depth:str = 5, interval: int = None):
                 # orderbook depth data stored into a variable
                 data = await stream.recv()
                 # historical klines stored in to a variable
-                hist_data = await client.get_historical_klines(pair, AsyncClient.KLINE_INTERVAL_1HOUR, "1 Apr, 2022")
+                hist_data = await client.get_historical_klines(pair, AsyncClient.KLINE_INTERVAL_1HOUR, "15 Apr, 2022")
                 # create a list with both sets of data for easier transmision
                 # to a another function
                 processed_data.append(data)
