@@ -1,0 +1,10 @@
+python-binance
+python-dotenv
+websocket-client
+numpy
+pandas
+pandas-datareader
+matplotlib
+loguru
+pytest
+pytest-socket

@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+    python:
+        image: python:3.8
+        volumes:
+            - ./crypto-signals:/main
+        command: bash -c "cd ./main && pip install -r requirements.txt && python3.8 main.py btcusdt"
