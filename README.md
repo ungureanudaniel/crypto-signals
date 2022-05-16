@@ -16,20 +16,19 @@ Also, DO NOT risk money which you are afraid to lose and ALWAYS do your own rese
 
 ## Quick start
 ***
-** NOTE **
-- **This section assumes docker & python3.8+ is already installed and that**
+** NOTE ** : **This section assumes docker & python3.8+ is already installed and that**
 
 * Clone the repository into a docker container using command:
 ```<Language>
 
-///docker build -t <your folder name> https://github.com/ungureanudaniel/crypto-signals.git
+$ docker build -t <your folder name> https://github.com/ungureanudaniel/crypto-signals.git
 
 ```
 * cd into the crypto-signals directory
 * Run the Dockerfile, located in the main directory crypto-signals using command:
 ```<Language>
 
-///docker run crypto-signals
+$ docker run crypto-signals
 
 ```
 
