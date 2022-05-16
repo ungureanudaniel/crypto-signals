@@ -1,5 +1,6 @@
 """
-This module puts all the different functions to work together. It's the executable
+This module puts all the different functions to work together. It's the
+executable file
 """
 import asyncio
 from asyncio import Queue
@@ -14,6 +15,11 @@ from exchange import data_stream
 from order_manager import OrderManager
 
 async def start(pair: str):
+    """
+    Here all the different modules are centralized and ran using statement
+    at the bottom, with the 'run_until_complete' command specific to async
+    functions
+    """
     try:
         while True:
                 # create a task in asyncio for data_stream function

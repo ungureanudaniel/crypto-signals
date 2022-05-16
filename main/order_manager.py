@@ -1,3 +1,6 @@
+"""
+This module logs buy or sell messages into the CLI terminal
+"""
 import asyncio
 import sys
 from loguru import logger
