@@ -5,8 +5,7 @@ This software is not for real-world use, it is intended for educational use.
 The trading strategy it uses to send signals, is not effective alone, real world trading requires deep understanding of multiple market indicators!
 THE AUTHOR AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
 
-[^note]:
-PS. If you want to get into trading, DO NOT risk money which you are afraid to lose and ALWAYS do your own research.
+If you want to get into trading, DO NOT risk money which you are afraid to lose and ALWAYS do your own research.
 
 ## Supported Exchange marketplaces
 
