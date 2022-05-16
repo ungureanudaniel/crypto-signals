@@ -11,8 +11,8 @@ from loguru import logger
 async def data_stream(pair:str, depth:str = 5, interval: int = None):
     """
     This function connects to binance's web socket streaming using AsyncClient
-    and outputs a list of lists, containing both the market depth data and the
-    historical klines
+    and outputs a list, containing both the market depth data dictionary and the
+    historical klines, the latest being a list of lists itself
     Used https://sammchardy.github.io/async-binance-basics/ and and the official
     documentation https://python-binance.readthedocs.io/en/latest/, to build
     this code
