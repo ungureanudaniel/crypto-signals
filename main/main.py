@@ -25,7 +25,6 @@ async def start(pair: str):
                 # serve the strategy module output (signal) to the order Order
                 # manager module
                 ord = await OrderManager(sig).orders()
-                print(strm)
     except (Exception, ValueError) as e:
         logger.exception(f"Error! {e}")
 

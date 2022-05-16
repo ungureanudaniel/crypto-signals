@@ -4,7 +4,6 @@ This module connects to the exchange and streams data
 from binance import AsyncClient, BinanceSocketManager
 from binance.exceptions import BinanceAPIException
 import sys
-import aiohttp
 import asyncio
 from loguru import logger
 

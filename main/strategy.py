@@ -83,7 +83,7 @@ class Strategy:
             result['BB_LOWER'] = bb_lower
 
             # Below is the logic to generate buy or sell signals using the data in the
-            # dictionary stored in "self.result"
+            # dictionary stored in "result" variable
             if result['current'] >= result['BB_UPPER']:
                 signal = f"sell"
                 return signal

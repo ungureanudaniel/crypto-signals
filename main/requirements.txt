@@ -7,4 +7,3 @@ pandas-datareader
 matplotlib
 loguru
 pytest
-pytest-aiohttp

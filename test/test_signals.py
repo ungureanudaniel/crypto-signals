@@ -1,3 +1,8 @@
+"""
+This module is testing the buy or sell signals issuance, when the price is a the
+lower bollinger band or at the upper bollinger band
+It uses mock binance api data from a local file: 'mock_data.py'
+"""
 import datetime
 import pandas as pd
 import pandas_datareader as pdr
@@ -10,9 +15,6 @@ import pytest
 import asyncio
 import sys
 sys.path.append('../crypto-signals')
-from main.exchange import data_stream
-from main.strategy import Strategy
-from main.order_manager import OrderManager
 from mock_data import mock_data
 
 
@@ -132,17 +134,3 @@ def test_sell_signal(pair:str='btcusdt'):
         signal = f"wait"
 
     assert signal == "sell", f"The logged message should be 'sell', got: {ord}"
-
-
-# if __name__ == "__main__":
-#     # Fetch the CLI command first argument, which should be btcusdt
-#     sym = sys.argv[1].upper()
-#     # Printing a notice on what is being streamed into the command terminal
-#     print(f"Will stream pair: {sym}")
-#     print(f"Starting...")
-#     # Execution of the program
-#     loop = asyncio.get_event_loop()
-#     loop.run_until_complete(Testing(sym).test_market_depth())
-#     loop.run_until_complete(Testing(sym).test_market_depth())
-#     loop.run_until_complete(Testing(sym).test_buy_signal())
-#     loop.run_until_complete(Testing(sym).test_sell_signal())
