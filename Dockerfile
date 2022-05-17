@@ -4,7 +4,7 @@ ENV VIRTUAL_ENV=/myvenv
 
 WORKDIR /crypto-signals
 
-RUN python3.8 -m venv $VIRTUAL_ENV
+RUN python -m venv $VIRTUAL_ENV
 # Enable venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 

@@ -24,14 +24,14 @@ If you want to get into trading, DO NOT risk money which you are afraid to lose 
 * Clone the repository into a folder using command:
 ```<Language>
 
-docker build -t crypto-signals .
+git clone https://github.com/ungureanudaniel/crypto-signals.git
 
 ```
 * cd into the crypto-signals directory
-* Run the Dockerfile, located in the main directory crypto-signals using command:
+* Build the docker image & run it, using command:
 ```<Language>
 
-docker run crypto-signals
+docker build -t crypto-signals . && docker run crypto-signals
 
 ```
 
